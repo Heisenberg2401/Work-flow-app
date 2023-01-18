@@ -12,7 +12,9 @@ function Login() {
         let pass = localStorage.getItem(email)
         console.log(pass);
         if(pass === password){
-            sessionStorage.setItem(email,password);
+            sessionStorage.setItem('email',email);
+            sessionStorage.setItem('password',password);
+            history.push('/')
         }
         else{
             console.log('Wrong Password');

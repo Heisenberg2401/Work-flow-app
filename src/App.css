@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,20 @@
   to {
     transform: rotate(360deg);
   }
+} */
+*{
+	margin:0;
+}
+
+body{
+	background-color: #111;
+}
+
+.App{
+	background-color: #111;
+}
+
+::-webkit-scrollbar {
+	width: 0.5px; 
+	background: grey;  
 }
